@@ -1,0 +1,86 @@
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
+table {
+  border-collapse: collapse;
+}
+
+
+textarea {
+  white-space: revert;
+}
+
+.welcomeIMG{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.heder{
+    color:white;
+    background-color:rgb(216, 109, 63);
+    text-align: center;
+    font-size:60px;
+    
+
+}
+.shyamalIMG{
+    float:right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+body{
+    background-image:url(../img/scienceIMG.jpg);
+    background-size: cover;
+    background-position:center;
+
+}
+p{
+    text-align:justify;
+    color:black;
+    line-height: 30px;
+    font-size:large;
+    
+    
+}
+.section01{
+    background-color:rgb(22, 204, 56);
+    padding:50px;
+    border-radius :20px;
+    border-style:groove;
+    border-width: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+b{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
